@@ -1,4 +1,3 @@
-
 body {
     height: 100%;
     margin: 0;
@@ -8,7 +7,20 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: whitesmoke
 }
+
+.text-white {
+    --bs-text-opacity: blueviolet;
+    color: #202123;
+    font-family: none;
+    font-size: x-large;
+    font-feature-settings: initial;
+    font-variant: diagonal-fractions;
+    border-radius: 5px;
+}
+
+
 
 .bg-image {
     background-image: url('brasil.jpg');
@@ -21,8 +33,26 @@ body {
     padding-top: 50px;
     text-align: center;
 }
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search_12297232.png');
+    background-position: 5px 10px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    position: relative;
+    right: 6px;
+}
+
 h1 {
     margin: 0;
+    color:azure
 }
 
 h2 {
@@ -36,4 +66,20 @@ h2 {
     padding-top: 180px;
     color: cornsilk;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+    font-size: var(--bs-pagination-font-size);
+    color: #1111d9;
+    text-decoration: auto;
+    background-color: #acaddd;
+    border: var(--bs-pagination-border-width) solid #98d165;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s cubic-bezier(0.42, 0, 0.73, 1.44);
+    border-radius: 8px;
+    font-family: monospace;
+    font-weight: 900
 }
