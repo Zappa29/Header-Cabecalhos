@@ -1,5 +1,5 @@
 # Header-Cabeçalhos
-Este é um protótipo de página web, utilizando Bootstrap para garantir a responsividade. Me baseei em algumas coisas que aprendi no curso e em algums exemplos do site W3Schools.
+Este é um protótipo de página web, utilizando Bootstrap para garantir a responsividade. Me baseei em algumas coisas que aprendi no curso e em alguns exemplos do site W3Schools.
 ## Tecnologias Utilizadas
 
 - HTML5
