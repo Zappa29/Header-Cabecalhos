@@ -1,5 +1,5 @@
 # Header-Cabeçalhos
-Este é um protótipo de página web, focado no cabeçalho utilizando Bootstrap para garantir a responsividade.
+Este é um protótipo de página web, utilizando Bootstrap para garantir a responsividade.
 ## Tecnologias Utilizadas
 
 - HTML5
@@ -9,4 +9,7 @@ Este é um protótipo de página web, focado no cabeçalho utilizando Bootstrap 
 
 
 ##Arthur
+
+Referências:https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_navbar_collapse
+
 
